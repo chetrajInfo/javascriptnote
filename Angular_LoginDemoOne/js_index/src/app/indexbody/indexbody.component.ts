@@ -5,6 +5,22 @@ import { Component } from '@angular/core';
   templateUrl: './indexbody.component.html',
   styleUrls: ['./indexbody.component.css']
 })
-export class IndexbodyComponent {
 
+
+export class IndexbodyComponent {
+  fullName: string | undefined;
+  email: string | undefined;
+  password: string | undefined;
+  dob: Date | undefined;
+
+  onSubmit() {
+    // Implement your login logic here
+  }
+
+  onCancel() {
+    this.fullName = '';
+    this.email = '';
+    this.password = '';
+    this.dob = undefined;
+  }
 }

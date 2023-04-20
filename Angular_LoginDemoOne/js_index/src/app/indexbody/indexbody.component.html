@@ -1,1 +1,31 @@
-<p>indexbody works!</p>
+
+<form (ngSubmit)="onSubmit()" autocomplete="off">
+    <table>
+      <caption>Validation Form</caption>
+      <tr>
+        <td><label>Full Name</label></td>
+        <td><input type="text" id="fullname" name="fullname" [(ngModel)]="fullName"></td>
+      </tr>
+      <tr>
+        <td><label>Email</label></td>
+        <td><input type="email" id="email" name="email" [(ngModel)]="email"  autocomplete="new-email"></td><!--if you dont put 
+        autocomplete here also than some browser ignore autocomplete decalre in form and show the suggestion everytime-->
+      </tr>
+      <tr>
+        <td><label>Password</label></td>
+        <td><input type="password" id="pass" name="pass" [(ngModel)]="password" autocomplete="new-password"></td><!--if you dont put 
+            autocomplete here also than some browser ignore autocomplete decalre in form and show the suggestion everytime-->
+      </tr>
+      <tr>
+        <td><label>Date of Birth</label></td>
+        <td><input type="date" id="date" name="date" [(ngModel)]="dob"></td>
+      </tr>
+      <tr>
+        <td colspan="2">
+          <button type="submit" id="login" name="login">Login</button>
+          <input type="button" id="cancel" name="cancel" value="Cancel" (click)="onCancel()">
+        </td>
+      </tr>
+    </table>
+  </form>
+  
