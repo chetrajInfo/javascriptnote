@@ -1,0 +1,11 @@
+angular_release-version_01.00.01
+created the project name js_index using command
+ng new js_index
+
+Generated three component navbar indexbody and footer using command
+ng generate component navbar
+ng generate component indexbody
+ng generate component footer
+
+Added the content in indexbody.component.html file added the content in indexbody.compoenent.css file and called 
+the form inot the .ts file 
