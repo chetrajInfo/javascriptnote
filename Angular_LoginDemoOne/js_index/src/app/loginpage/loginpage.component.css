@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+table {
+    margin-top: 6%;
+    margin-left: 39%;
+    border: 1px solid grey;
+    border-radius: 3%;
+    background-color: rgb(230, 228, 226);
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    outline: none;
+}
+table:hover{
+    box-shadow: 0 0 10px rgba(0,0,0,0.6);
+    outline: none;
+  }
+
+label {
+    font-size: 16px;
+}
+
+table,
+tr,
+td {
+    /*border:1px solid grey;*/
+    /*border-collapse: collapse;*/
+    padding: 4px;
+}
+
+caption {
+    font-weight: bold;
+}
+.check{
+    font-size: 30px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    height: 39px;
+    font-family: roboto;
+    font-size: 16px;
+
+}
+
+button,
+input[type="button"] {
+    height: 33px;
+    padding: 0 6px;
+    font-size: 16px;
+    font-family: roboto;
+    margin-left: 55px;
+    width: 215px;
+    border-radius: 6px;
+    background-color: rgb(121, 198, 246);
+    cursor: pointer;
+}
+.manageLink{
+    padding-left: 55px;
+}
+
+
+
+
+
+
+@media screen and (max-width:600px) {
+    table {
+        margin-top: 19%;
+        margin-left: 16%;
+    }
+    .check{
+        font-size: 21px;
+    }
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    height: 29px;
+    font-size: 13px;
+
+}
+button,
+input[type="button"] {
+    height: 23px;
+    padding: 0 3px;
+    font-size: 13px;
+    margin-left: 56px;
+    width: 155px;
+    border-radius: 6px;
+}
+.manageLink{
+    padding-left: 29px;
+    font-size: 14px;
+}
+label{
+    font-size: 14px;
+}
+
+
+}
