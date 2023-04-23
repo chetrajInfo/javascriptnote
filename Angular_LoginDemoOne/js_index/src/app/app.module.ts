@@ -7,7 +7,8 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { IndexbodyComponent } from './indexbody/indexbody.component';
 import { FooterComponent } from './footer/footer.component';
 import { FormsModule } from '@angular/forms';
-import { LoginpageComponent } from './loginpage/loginpage.component'; //need to add this import if your form need to work properly and also inside imports array below
+import { LoginpageComponent } from './loginpage/loginpage.component';
+import { HomepageComponent } from './homepage/homepage.component'; //need to add this import if your form need to work properly and also inside imports array below
 //import { RouterModule, Routes } from '@angular/router';
 
 
@@ -26,6 +27,7 @@ const routes: Routes = [
     IndexbodyComponent,
     FooterComponent,
     LoginpageComponent,
+    HomepageComponent,
     //FormsModule,  (this will create error telling indexbody element is not defined because we cannot put FormsModule in NgModule only inside the imports arrays)
   ],
   imports: [

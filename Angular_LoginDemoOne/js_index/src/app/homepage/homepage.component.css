@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.para-topone{
+    font-size: large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: justify;
+    position: absolute;
+    padding-top:10px;
+    margin-right:625px;
+
+}
+.para-toptwo{
+    font-size: large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: justify;
+    padding-top:10px;
+    margin-right:625px;
+
+}
+.cg{
+    font-size: 23px;
+    color: rgb(20, 5, 121);
+}
+.img-val{
+    position:relative;
+    margin-left: 800px;
+    margin-top: 20px;
+}
+@media screen and (max-width:600px) {
+    .para-topone, .para-toptwo{
+        font-size: 12px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        text-align: justify;
+        padding-top:5px;
+        margin-right:10px;
+
+    
+    }
+    .img-val{
+        margin-left:50px;
+        margin-top: 150px;
+    }
+    img{
+        height:260px;
+        width:360px;
+    }
+}
