@@ -4,11 +4,11 @@
       <caption>Registration Form</caption>
       <tr>
         <td><label>Full Name</label></td>
-        <td><input type="text" id="fullname" name="fullname" [(ngModel)]="fullName" autocomplete="new-name"></td>
+        <td><input type="text" id="fullname" name="fullname" [(ngModel)]="fullName" autocomplete="off"></td>
       </tr>
       <tr>
         <td><label>Email</label></td>
-        <td><input type="email" id="email" name="email" [(ngModel)]="email"  autocomplete="new-email"></td><!--if you dont put 
+        <td><input type="email" id="email" name="email" [(ngModel)]="email"  autocomplete="off"></td><!--if you dont put 
         autocomplete here also than some browser ignore autocomplete decalre in form and show the suggestion everytime-->
       </tr>
       <tr>
@@ -18,7 +18,7 @@
       </tr>
       <tr>
         <td><label>Phone Number</label></td>
-        <td><input type="tel" id ="tel" name="tel" [(ngModel)]="tel" autocomplete="new-tel"></td>
+        <td><input type="tel" id ="tel" name="tel" [(ngModel)]="tel" autocomplete="off"></td>
       </tr>
       <tr>
         <td><label>Date of Birth</label></td>

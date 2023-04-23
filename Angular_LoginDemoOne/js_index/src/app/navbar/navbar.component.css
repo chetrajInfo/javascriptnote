@@ -1,12 +1,25 @@
 nav {
     background-color: #333;
-    height: 50px;
+    height: 52px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     position: relative;
   }
-  
+
+  .logo{
+    font-size: 23px;
+    font-weight: bold;
+    color:wheat;
+    display: block;
+    margin-right:60px;
+  }
+  .logo-down{
+     font-size:14px;
+     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;  
+     color:rgb(216, 178, 107);  
+  }
+
   nav ul {
     list-style: none;
     margin: 0;
@@ -101,6 +114,21 @@ nav {
     background-color: grey;
     color: #ffa500;
     cursor: pointer;
+  }
+
+  .logo{
+    font-size: 29px;
+    font-weight: bold;
+    color:wheat;
+    font-family: cursive;
+    margin-left:180px;
+    margin-top: -93px;
+    
+  }
+  .logo-down{
+    font-size: 21px;
+     font-family:Georgia, 'Times New Roman', Times, serif;
+     color:rgb(216, 178, 107);  
   }
 }
   
