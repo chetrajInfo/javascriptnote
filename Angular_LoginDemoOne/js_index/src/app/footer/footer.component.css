@@ -4,10 +4,11 @@
     box-sizing: border-box;
 }
 .footer-size{
-    margin-top:119px;
+    margin-top:259px;
     padding: 60px 0;
     background-color: black;
     color:white;
+    
 }
 
 @media screen and (max-width:600px) {
