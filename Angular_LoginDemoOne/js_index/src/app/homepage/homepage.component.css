@@ -15,9 +15,11 @@
 .para-toptwo{
     font-size: large;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-right:100px;
     text-align: justify;
-    padding-top:10px;
-    margin-right:625px;
+    padding-top:140px;
+   
+    
 
 }
 .cg{
@@ -29,6 +31,97 @@
     margin-left: 800px;
     margin-top: 20px;
 }
+
+#image-container {
+    height:200px;
+    width:90%;
+    margin-right: -20px;
+    position: relative;  
+    padding:10px 0 0 0;
+    display:inline;
+  }
+
+  .imageSize{
+    height:200px;
+    width: 200px;
+    padding:10px 0 0 0 ;
+  }
+  
+  #moving-image1, #moving-image2, #moving-image3,#moving-image4,#moving-image5 {
+    position: relative;
+    animation-duration: 10s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+  }
+  
+  #moving-image1 {
+    animation-name: moveRight1;
+  }
+  
+  #moving-image2 {
+    animation-name: moveRight2;
+  }
+  
+  #moving-image3 {
+    animation-name: moveRight3;
+  }
+
+  #moving-image4 {
+    animation-name: moveRight4;
+  }
+  
+  #moving-image5 {
+    animation-name: moveRight5;
+  }
+  
+  
+  @keyframes moveRight1 {
+    0% {
+      left: -100px;
+    }
+    100% {
+      left: 90%;
+    }
+  }
+  
+  @keyframes moveRight2 {
+    0% {
+      left: -100px;
+    }
+    100% {
+      left: 90%;
+    }
+  }
+  
+  @keyframes moveRight3 {
+    0% {
+      left: -100px;
+    }
+    100% {
+      left: 90%;
+    }
+  }
+  
+  @keyframes moveRight4 {
+    0% {
+      left: -100px;
+    }
+    100% {
+      left: 90%;
+    }
+  }
+  
+  @keyframes moveRight5 {
+    0% {
+      left: -100px;
+    }
+    100% {
+      left: 90%;
+    }
+  }
+    
+
+
 @media screen and (max-width:600px) {
     .para-topone, .para-toptwo{
         font-size: 12px;
