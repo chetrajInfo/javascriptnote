@@ -1,8 +1,18 @@
 
-<header>
-  <img src="./assets/aws.png">
+<header class="header">
+ 
+    <img src="./assets/aws.png"> 
+  
+  <div class="lst">
+    <p>About Us </p> <p>Contact Me</p> <p>Call Us</p><p>Check List</p>
+  </div>
+  <div class="text">
+   <p> Learn Code </p> 
+  </div>
 </header>
 <nav>
+  <!--
+
     <ul>
       <li><a routerLink="/homepage" routerLinkActive="active">Home</a></li>
       <li><a href="#">About Us</a></li>
@@ -20,9 +30,25 @@
       </li>
     
       <li> <a routerLink="/loginpage" routerLinkActive="active">Login</a></li>
-      <!--<li> <a routerLink="/indexbody" routerLinkActive="active">Registration</a></li> -->
+      <li> <a routerLink="/indexbody" routerLinkActive="active">Registration</a></li>
     </ul>
-    <pre class="logo">LearnCode
-<span class="logo-down">Inst. You Trust.</span></pre>
+
+  -->
+    <div><a routerLink="/homepage" routerLinkActive="active">Home</a></div>
+    <div><a href="#">About Us</a></div>
+    <details class="details">
+      <summary>Courses</summary>
+      <ul class="nest-menu">
+        <li>Full Stack Java</li>
+        <li>DevOps</li>
+        <li>IAM Training</li>
+        <li>Machine Learning</li>
+        <li>Python AI</li>
+      </ul>
+    </details>
+    
+
+    <div> <a routerLink="/loginpage" routerLinkActive="active">Login</a></div>
+    <div> <a routerLink="/indexbody" routerLinkActive="active">Registration</a></div>
   </nav>
   
